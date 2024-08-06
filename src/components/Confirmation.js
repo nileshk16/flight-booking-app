@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 const Confirmation = () => {
-  const location = useLocation();
   const navigate = useNavigate();
 
   const [contactInfo, setContactInfo] = useState({ email: "", phone: "" });
